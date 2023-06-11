@@ -1,0 +1,109 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: #121528;
+}
+.wrapper{
+	width: 100%;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.nav{
+	width: 100%;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+}
+.menu{
+	float: right;
+	margin: 50px;
+}
+.menu a, .logo a{
+	text-decoration: none;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 50px;
+}
+.menu ul li a, .logo h1 a{
+    color: white;   
+}
+/* Banner section */
+.banner{
+	width: 100%;
+	margin: 40px 0px 40px;
+}
+.banner-box{
+	overflow: hidden;
+	display: flow-root;
+}
+.description{
+	float: left;
+	width: 50%;
+}
+.description .text-1, h5{
+	color: white;
+}
+.text-2{
+	color: #ffb403;
+}
+.banner-img{
+	float: right;
+	display: flex;
+	width: 50%;
+	flex-flow: row-reverse wrap;
+}
+button{
+	width: 140px;
+    margin: 40px;
+    padding: 15px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background-color: #ffb403;
+}
+.banner-img img{
+	width: 300px;
+	height: auto;
+}
+
+/* About Section */
+
+.about{
+	width: 100%;
+	margin: 70px 0px 40px;
+}
+.about-box{
+	overflow: hidden;
+}
+.about-img{
+	float: left;
+	width: 40%;
+}
+.about-img img{
+	width: 300px;
+	height: auto;
+	border-radius: 10px;
+}
+.about-info{
+	width: 50%;
+	float: right;
+}
+.text-3, p {
+	color: white;
+}
+.text-4{
+	color: #ffb403;
+}
+/*Footer Section*/
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
